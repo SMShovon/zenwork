@@ -1,0 +1,417 @@
+/***** Extra large devices (large desktops, 1200px and up) *****/
+@media (min-width: 1400px) {
+	.container {
+		max-width: 1350px;
+	}
+
+	footer > img {
+		height: auto;
+	}
+
+	.banner-content h1 {
+	  max-width: 430px;
+	}
+
+	.header-logo a img {
+	  max-width: 200px;
+	}
+
+	h1 {
+	  font-size: 45px;
+	}
+
+	p {
+	  font-size: 19px;
+	}
+
+	.banner-content h6 {
+	  font-size: 21px;
+	}
+
+	input.form-control {
+	  font-size: 18px;
+	  height: 52px;
+	}
+
+	h2 {
+	  font-size: 35px;
+	}
+
+	a.read-more-btn {
+	  font-size: 19px;
+	}
+
+	a.sign-up-btn {
+	  font-size: 19px;
+	  padding: 12px 35px;
+	}
+
+	.jobs-sec h3 {
+	  font-size: 35px;
+	}
+
+	.footer-logo img {
+	  width: 200px;
+	}
+
+	footer p {
+	  font-size: 17px;
+	}
+
+	.footer-first-menu ul li a {
+	  font-size: 17px;
+	}
+
+	.footer-first-menu ul li {
+	  padding: 3px 0;
+	}
+
+	.form-control::-webkit-input-placeholder {
+		font-size: 18px;
+	}
+
+	.form-control:-moz-placeholder {
+		font-size: 18px;
+	}
+
+	.form-control::-moz-placeholder {
+		font-size: 18px;
+	}
+
+	.form-control:-ms-input-placeholder {
+		font-size: 18px;
+	}
+
+	.form-control::-ms-input-placeholder {
+		font-size: 18px;
+	}
+
+	.form-control::placeholder {
+		font-size: 18px;
+	}
+
+	.searchbar {
+	  height: 60px;
+	  padding: 15px 12.5px;
+	}
+
+	.button_container span:nth-of-type(3) {
+		top: 19.5px;
+	}
+
+	.searchbar:hover > .search_input {
+	  width: 350px;
+	}
+
+	.jobs-bg {
+	  padding: 75px 175px;
+	}
+
+	.button_container.active .top {
+	  -webkit-transform: translateY(5px) translateX(0) rotate(45deg);
+	  -moz-transform: translateY(5px) translateX(0) rotate(45deg);
+	  -ms-transform: translateY(5px) translateX(0) rotate(45deg);
+	  -o-transform: translateY(5px) translateX(0) rotate(45deg);
+	  transform: translateY(5px) translateX(0) rotate(45deg);
+	  background: #fff;
+	}
+
+	.features-sec-content {
+	  max-width: 525px;
+	}
+}
+
+
+/***** Large devices (desktops, less than 1200px) *****/
+@media (max-width: 1199.98px) {
+	.container {
+	  padding: 0 30px;
+	}
+
+	.searchbar:hover > .search_input {
+	  width: 275px;
+	}
+
+	.jobs-bg {
+	  padding: 50px;
+	}
+
+	a.sign-up-btn {
+	  margin-left: 15px;
+	}
+
+	.jobs-text {
+	  margin: 0;
+	}
+
+	.jobs-sec .form-inline {
+	  -webkit-box-pack: end;
+	  -webkit-justify-content: flex-end;
+	     -moz-box-pack: end;
+	      -ms-flex-pack: end;
+	          justify-content: flex-end;
+	}
+}
+
+
+/***** Medium devices (tablets, less than 992px) *****/
+@media (max-width: 991.98px) {
+	.searchbar:hover > .search_input {
+	  width: 235px;
+	}
+
+	.banner-top-content {
+	  max-width: 350px;
+	}
+
+	.banner-content-wrap {
+	  padding: 50px 0 80px;
+	}
+
+	.jobs-bg {
+	  padding: 30px 25px;
+	}
+
+	.jobs-sec .form-inline {
+	  -webkit-box-pack: start;
+	  -webkit-justify-content: flex-start;
+	     -moz-box-pack: start;
+	      -ms-flex-pack: start;
+	          justify-content: flex-start;
+	}
+
+	.footer-logo img {
+	  max-width: 150px;
+	}
+}
+
+
+/***** Small devices (landscape phones, less than 768px) *****/
+@media (max-width: 767.98px) {
+	.header-logo a img {
+	  max-width: 150px;
+	}
+
+	.searchbar:hover > .search_input {
+	  width: 175px;
+	}
+
+	.overlay ul li a {
+	  font-size: 35px;
+	}
+
+	.features-sec-item img {
+	  position: inherit;
+	  width: 100%;
+	  max-width: 100%;
+	  -webkit-transform: none;
+	     -moz-transform: none;
+	      -ms-transform: none;
+	       -o-transform: none;
+	          transform: none;
+	}
+
+	h1 {
+	  font-size: 35px;
+	}
+
+	.banner-content-wrap {
+	  padding: 74px 0 70px;
+	}
+
+	.banner-content p {
+	  margin: 30px 0;
+	}
+
+	.features-sec-item {
+	  padding: 40px 0;
+	}
+}
+
+
+/***** Extra small devices (portrait phones, less than 576px) *****/
+@media (max-width: 575.98px) {
+	.searchbar {
+	  display: none;
+	}
+
+	.button_container span:nth-of-type(1) {
+	  top: 5px;
+	}
+
+	.button_container span:nth-of-type(2) {
+	  top: 11px;
+	}
+
+	.container {
+	  padding: 0 20px;
+	}
+
+	h1 {
+	  font-size: 32px;
+	}
+
+	.button_container.active .top {
+	  -webkit-transform: translateY(5px) translateX(0) rotate(45deg);
+	     -moz-transform: translateY(5px) translateX(0) rotate(45deg);
+	      -ms-transform: translateY(5px) translateX(0) rotate(45deg);
+	       -o-transform: translateY(5px) translateX(0) rotate(45deg);
+	          transform: translateY(5px) translateX(0) rotate(45deg);
+	}
+
+	.features-sec-content {
+	  padding: 40px 20px;
+	}
+
+	footer > img {
+		display: none;
+	}
+
+	footer {
+	  padding: 50px 0 35px;
+	}
+
+	.button_container span:nth-of-type(3) {
+	  top: 17px;
+	}
+
+	.header-nav-wrap {
+		padding: 15px 0;
+	}
+
+	h2 {
+	  font-size: 30px;
+	}
+
+	.jobs-bg {
+	  padding: 30px 20px;
+	}
+
+	.jobs-sec h3 {
+	  font-size: 28px;
+	}
+
+	.form-group {
+	  margin: 0;
+	  width: 100%;
+	}
+
+	a.sign-up-btn {
+	  margin: 25px 0 0 0;
+	  padding: 9px 25px;
+	}
+
+	.form-inline input {
+		height: 43px;
+	}
+
+	.banner-content-wrap {
+	  padding: 74px 0 0;
+	}
+
+	.features-sec-item {
+	  padding: 35px 0;
+	}
+
+	.footer-last-menu {
+	  margin-top: 10px;
+	}
+
+	footer p {
+	  margin-top: 17.5px;
+	}
+
+	.banner-content h1 {
+	  max-width: 275px;
+	}
+
+	.banner-content p {
+	  margin: 20px 0;
+	}
+
+	.footer-logo img {
+	  max-width: 135px;
+	}
+
+	.button_container.active .bottom {
+	  -webkit-transform: translateY(-7px) translateX(0) rotate(-45deg);
+	     -moz-transform: translateY(-7px) translateX(0) rotate(-45deg);
+	      -ms-transform: translateY(-7px) translateX(0) rotate(-45deg);
+	       -o-transform: translateY(-7px) translateX(0) rotate(-45deg);
+	          transform: translateY(-7px) translateX(0) rotate(-45deg);
+	}
+
+	.features-sec-content p {
+	  margin: 20px 0;
+	}
+
+	.jobs-sec {
+	  margin-top: 25px;
+	}
+}
+
+
+/***** Medium mobile phones (up to 375px) *****/
+@media (max-width: 375px) {
+	.header-logo a img {
+	  max-width: 130px;
+	}
+
+	.overlay ul li a {
+	  font-size: 33px;
+	}
+
+	.banner-content-wrap {
+	  padding-top: 25px;
+	}
+
+	.banner-content h1 {
+	  max-width: 250px;
+	  font-size: 31px;
+	}
+
+	.banner-content h1 br {
+	  display: none;
+	}
+
+	.banner-content p {
+	  margin: 15px 0;
+	}
+
+	.banner-content h6 {
+	  margin-bottom: 20px;
+	  font-size: 18px;
+	}
+
+	.features-sec-content {
+	  padding: 30px 15px;
+	}
+
+	a.read-more-btn {
+	  font-size: 15px;
+	}
+}
+
+
+/***** Small mobile phones (up to 320px) *****/
+@media (max-width: 320px) {
+	.features-sec-content {
+	  padding: 30px 15px;
+	}
+
+	.form-inline input {
+	  width: 250px !important;
+	}
+
+	.jobs-sec .form-inline input {
+	  width: 225px !important;
+	}
+
+	a.sign-up-btn {
+	  margin-top: 20px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+}
